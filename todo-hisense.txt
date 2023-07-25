@@ -1,0 +1,49 @@
+Start phone
+Initial walkthrough
+Join wifi
+Settings->System updates
+
+
+
+
+
+
+Settings -> About phone -> tap kernel version several times to enable devel options
+
+Settings -> System and Updates -> Developer options -> USB debugging (on)
+Settings -> Other Settings -> Developer options -> USB debugging (on)
+
+swipe down to notifications, USB options -> File transfer (MTP)
+~/Android/Sdk/platform-tools/adb install -r XCSoarData/XCSoar-debug.apk
+~/Android/Sdk/platform-tools/adb install-multiple Traffic/base.apk Traffic/split_config.*.apk
+
+turn off NFC
+
+copy files across
+
+(A7)
+Settings -> Ink screen settings -> Application display mode -> XCS-test -> Balanced Mode
+Settings -> Ink screen settings -> Application display mode -> Traffic -> Balanced Mode
+System Navigation -> Hide navigation bar
+
+(A5 pro cc)
+Settings -> Display and brightness -> Application display mode -> XCS-test Balanced Mode
+Settings -> Display and brightness -> Application display mode -> Traffic Balanced Mode
+System Navigation -> Hide navigation bar
+
+run debloat.sh
+start xcsoar
+allow all the time, allow
+
+Settings -> Buttons -> Short press Eink button -> Screen refresh
+Settings -> Buttons -> Double click Eink button -> None
+
+Connect to WIFI, then system update
+A5procc: L1736.6.02.00.B7
+
+
+-------------------------------------------
+
+Hisense A5 Pro Hardcase + Body by famichu on Thingiverse: https://www.thingiverse.com/thing:4487877
+
+

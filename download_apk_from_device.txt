@@ -1,0 +1,8 @@
+adb shell pm list packages
+adb shell pm list packages| grep com.controlj
+adb shell pm path com.controlj.traffic
+adb pull /data/app/com.controlj.traffic-7cnohUrHuU2pjJ3F92b7mA==/base.apk
+adb pull /data/app/com.controlj.traffic-7cnohUrHuU2pjJ3F92b7mA==/split_config.arm64_v8a.apk
+adb pull /data/app/com.controlj.traffic-7cnohUrHuU2pjJ3F92b7mA==/split_config.en.apk
+adb pull /data/app/com.controlj.traffic-7cnohUrHuU2pjJ3F92b7mA==/split_config.xxhdpi.apk
+
